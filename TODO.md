@@ -1,0 +1,5 @@
+- [ ] Add all ČRo streams
+- [ ] Create config
+- [ ] Use official icons for channels
+  - [ ] Get approval from ČRo
+  - [ ] Download icons from ČRo website during install

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.cro" name="Český Rozhlas radio plugin" version="0.0.1" provider-name="vlna">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Provides access to Czech Radio streams</summary>
+        <license>GPLv2</license>
+        <description lang="en">ČRo Radio plugin</description>
+        <platform>all</platform>
+    </extension>
+</addon>
