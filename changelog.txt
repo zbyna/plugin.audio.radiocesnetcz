@@ -1,0 +1,7 @@
+0.0.1
+    initial version
+    
+0.0.2
+    new icon
+    new name
+    very simple parser added, list of channels is automatically generated, urls not hardcoded
