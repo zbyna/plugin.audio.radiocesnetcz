@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.cro" name="Český Rozhlas radio plugin" version="0.0.1" provider-name="vlna">
+<addon id="plugin.audio.radiocesnetcz" name="CESNET radio plugin" version="0.0.2" provider-name="vlna">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
     </requires>
@@ -7,9 +7,11 @@
         <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Provides access to Czech Radio streams</summary>
+        <summary lang="en">Provides access to selected channels of public broadcaster Czech Radio provided by CESNET</summary>
+        <summary lang="cs">Poskytuje přístup k vybraným kanálům veřejnoprávního Českého rozhlasu poskytovaným CESNETem</summary>
         <license>GPLv2</license>
-        <description lang="en">ČRo Radio plugin</description>
+        <description lang="en">CESNET radio plugin</description>
+        <description lang="cs">CESNET rádio doplňek</description>
         <platform>all</platform>
     </extension>
 </addon>
